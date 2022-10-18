@@ -2,6 +2,10 @@
   <div class="container">
     <div class="banner">LOGO HERE</div>
     <div class="title-under-logo">TechCompass.dev</div>
+    <div class="selection q-pa-md q-gutter-sm">
+      <q-btn class="glossy" color="primary" label=" Start Here " />
+      <q-btn class="glossy" color="secondary" label="Documentation" />
+    </div>
   </div>
 </template>
 
@@ -24,7 +28,6 @@
 .title-under-logo {
   text-align: center;
   border: solid;
-  margin-top: 50px;
-  padding-top: 50px;
+  margin-top: 30px;
 }
 </style>
